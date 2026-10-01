@@ -8,7 +8,10 @@
 
 ## 실행 방법
 
-`index.html`을 브라우저로 열면 됩니다. 설치나 빌드는 필요 없습니다.
+`index.html`을 브라우저로 열면 됩니다. 설치나 빌드는 필요 없습니다. 모바일 버전은 `mobile_version/index.html`입니다.
+
+- 배포 주소: https://y4kun4s1.github.io/Study02_ToDoList/
+- 모바일 버전: https://y4kun4s1.github.io/Study02_ToDoList/mobile_version/
 
 ## 주요 기능
 
@@ -35,9 +38,10 @@
 
 | 파일 | 설명 |
 |---|---|
-| `index.html` | 화면 구조 |
-| `style.css` | 스타일 |
+| `index.html` | 데스크톱 버전 화면 구조 (사이드바 + 목록 2단 레이아웃, 800px 이하에서는 1단) |
+| `style.css` | 데스크톱 버전 스타일 |
 | `app.js` | 상태 관리, 저장, 렌더링, 이벤트 처리 |
+| `mobile_version/` | 모바일용 단일 컬럼 버전 (`index.html`, `style.css`, `app.js`) |
 | [PRD.md](PRD.md) | 제품 요구사항 문서 |
 | [PROMPTS.md](PROMPTS.md) | Claude Code용 단계별 프롬프트 |
 
